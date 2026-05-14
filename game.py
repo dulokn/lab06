@@ -61,9 +61,9 @@ def main():
         keys = pygame.key.get_pressed()
 
         if not game_over:
-            if keys[pygame.K_w] and paddle_left.top > 0:
+            if ball.centery < paddle_right.centery and paddle_right.top > 0:
                 paddle_left.y -= PADDLE_SPEED
-            if keys[pygame.K_s] and paddle_left.bottom < HEIGHT:
+            if ball.centery > paddle_right.centery and paddle_right.bottom < HEIGHT:
                 paddle_left.y += PADDLE_SPEED
             if keys[pygame.K_UP] and paddle_right.top > 0:
                 paddle_right.y -= PADDLE_SPEED
