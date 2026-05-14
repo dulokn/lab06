@@ -8,9 +8,9 @@ WIDTH, HEIGHT = 900, 650
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Pong Game")
 
-BLACK = (0, 0, 0)
-WHITE = (255, 255, 255)
-GRAY  = (200, 200, 200)
+BLACK = (15, 15, 40)
+WHITE = (0, 220, 255)
+GRAY  = (100, 180, 220)
 
 FPS          = 60
 PADDLE_W     = 12
