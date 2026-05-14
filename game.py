@@ -17,10 +17,9 @@ PADDLE_W     = 12
 PADDLE_H     = 90
 BALL_SIZE    = 14
 PADDLE_SPEED = 7
-BALL_SPEED_X = 5
-BALL_SPEED_Y = 5
-WIN_SCORE    = 7
-
+BALL_SPEED_X = 7
+BALL_SPEED_Y = 7
+WIN_SCORE    = 5
 clock      = pygame.time.Clock()
 font_big   = pygame.font.SysFont("monospace", 72, bold=True)
 font_small = pygame.font.SysFont("monospace", 28)
